@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#FF7F11] text-white rounded-full font-medium 
+           hover:bg-[#ff8f2f] transition-all duration-300 
+           transform hover:scale-105 focus:outline-none focus:ring-2 
+           focus:ring-[#FF7F11] focus:ring-opacity-50;
+  }
+
+  .section-heading {
+    @apply text-4xl font-bold text-gray-900 mb-4;
+  }
+
+  .section-subheading {
+    @apply text-xl text-gray-600 max-w-2xl mx-auto;
+  }
+}
