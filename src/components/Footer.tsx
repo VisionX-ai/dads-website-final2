@@ -35,7 +35,7 @@ const Footer = () => {
             <p className="text-gray-400">
               Building tomorrow's vision with today's innovation.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF7F11] transition-colors duration-200">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF7F11] transition-colors duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -106,10 +106,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Construction Ave</li>
+              <li>4 Olofin Road , Apapa</li>
               <li>Lagos, Nigeria</li>
-              <li>Phone: +234 123-4567</li>
-              <li>Email: info@skyexpressnig.com</li>
+              <li>Phone: +234 7015-153884</li>
+              <li>Email: skyexpress@gmail.com</li>
             </ul>
           </div>
         </div>

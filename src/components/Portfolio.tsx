@@ -14,10 +14,10 @@ const projects = [
     description: 'High-end residential complex with premium amenities.'
   },
   {
-    title: 'Shopping Mall',
-    category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1519420573924-65fcd45245f8?auto=format&fit=crop&q=80',
-    description: 'Modern shopping center with innovative design.'
+    title: 'Renovation',
+    category: 'Residential',
+    image: 'https://images.unsplash.com/photo-1580063665421-4c9cbe9ec11b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'Modern Residential complex with innovative design.'
   }
 ];
 

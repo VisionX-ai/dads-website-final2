@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Truck, Menu, X } from 'lucide-react';
+import { Truck, Building2 , Menu, X } from 'lucide-react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -44,8 +44,9 @@ const Navbar = () => {
             to="/"
             className="flex items-center"
           >
-            <Truck className="h-8 w-8 text-[#FF7F11]" />
-            <span className="ml-2 text-xl font-bold">SKY EXPRESS NIG LTD</span>
+            <Building2 className="h-8 w-8 text-[#FF7F11]" />
+            <span className="ml-2 text-xl font-bold">SKY EXPRESS NIG LTD  
+                       RC:499350</span>
           </Link>
           
           <div className="hidden md:flex space-x-8">
