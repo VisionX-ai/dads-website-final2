@@ -109,7 +109,7 @@ const Footer = () => {
               <li>4 Olofin Road , Apapa</li>
               <li>Lagos, Nigeria</li>
               <li>Phone: +234 7015-153884</li>
-              <li>Email: skyexpress@gmail.com</li>
+              <li>Email: skyxpressnigltd@gmail.com</li>
             </ul>
           </div>
         </div>
